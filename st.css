@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Pangolin&display=swap');
+*{
+    font-family: 'Pangolin', cursive;
+    cursor: url("https://cdn.custom-cursor.com/db/cursor/32/christmas_tree_and_t-rex_cursor.png"),
+		auto;
+}
+body{
+    background-color:  #c9baa6;    
+}
+h1{
+    font-family: 'Mountains of Christmas', serif;
+    display: flex;
+    width: 768px;
+    margin: 0 auto;
+    padding: 32px;
+    justify-content: center;
+    color: white;
+    background-color: #aa183c;
+    border-radius: 10px 10px  0 0;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color:#c33155 ;
+    flex-wrap: wrap;
+    width: 768px;
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 0 0  10px 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-color: white;
+    color: #c33155;
+    border-radius: 10px;
+    padding: 32px;
+    margin: 10px;
+    transition: 500ms;
+}
+.fa-solid{
+    font-size: 48px;
+}
+.card:hover{
+    background-color: #c33155;
+    color: white;
+    border: 2px solid white;
+}
